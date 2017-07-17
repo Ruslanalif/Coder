@@ -27,7 +27,7 @@ public class MyClass {
 		String data[] = new String[1];
 		try{
 			name = br.readLine();
-			int angka = Integer.parseInt(name);
+//			int angka = Integer.parseInt(name);
 			data[0]= "hallo";
 			data[1]= "hallo2";
 		}catch(NumberFormatException e){
